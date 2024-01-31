@@ -1,1 +1,85 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url(../../assets/img/plane.jpg);
+  background-size: cover;
+  height: 475px;
+  margin: 0;
+  position: relative;
+}
+header nav {
+  color: #fff;
+}
+header nav .left__navbar {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header nav .left__navbar h1 {
+  font-size: 24px;
+}
+header nav .right__navbar .dropdown__menu-idiom {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+header nav .right__navbar .dropdown__menu-idiom p {
+  font-size: 18px;
+}
+header nav .right__navbar .dropdown__menu-idiom .arrow-down {
+  width: auto;
+  height: 15px;
+}
+header nav .right__navbar .right__navabar-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header nav .right__navbar .right__navabar-text p {
+  padding: 7px;
+  font-size: 14px;
+}
+header nav .right__navbar .right__navabar-text p:first-child {
+  text-decoration: underline;
+}
+header nav .text__left {
+  padding: 10px;
+}
+header nav .text__left p {
+  font-size: 15px;
+}
+header nav .text__left p:first-child {
+  font-size: 20px;
+}
+header nav .text__left button {
+  border-radius: 30px;
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background-color: #FB3640;
+  border-style: none;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

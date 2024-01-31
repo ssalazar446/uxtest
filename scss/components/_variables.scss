@@ -1,0 +1,17 @@
+$primary-color-text: #fff;
+$line-up-destination: #707070;
+$footer-background: #0A2463;
+$primary-button: #FB3640;
+$secondary-text: #605F5E;
+$box-shadow: #0A246366;
+$background-text-card: #000000AD;
+$arrow-dropdown-menu: #247BA0;
+$box-shadow-menu: #00000029;
+$fuente: 'Roboto', sans-serif;
+
+@mixin flexCenter($direction, $content, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
