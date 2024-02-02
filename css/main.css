@@ -101,4 +101,38 @@ header nav .text__left button {
   left: 60px;
   width: 80%;
   color: #605F5E;
+}
+.flights .container_cards {
+  overflow: hidden;
+}
+.flights .container_cards .cards_flights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.flights .container_cards .cards_flights img {
+  border-radius: 16px;
+  width: 233px;
+  height: 207px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.flights .container_cards .cards_flights .offer_text {
+  border: 2px solid red;
+  border-radius: 0 0 16px 16px;
+  background-color: rgba(0, 0, 0, 0.6784313725);
+  opacity: 100%;
+  padding: 10px;
+  /* position: absolute;
+  width: 233px;
+  top: 80px; */
+}
+.flights .container_cards .cards_flights .offer_text p {
+  color: #fff;
+}
+.flights .container_cards .cards_flights .offer_text p:nth-child(2) {
+  font-weight: bold;
+  text-align: right;
 }/*# sourceMappingURL=main.css.map */

@@ -17,4 +17,34 @@
             color: #605F5E;
         }
     }
+    .container_cards {
+        overflow: hidden;
+        .cards_flights{
+            @include flexCenter(column, center, center);
+            position: relative;
+            img{
+                border-radius: 16px;
+                width: 233px;
+                height: 207px;
+                object-fit: cover;
+            }
+            .offer_text{
+                border: 2px solid red;
+                border-radius: 0 0 16px 16px;
+                background-color: #000000AD;
+                opacity: 100%;
+                padding: 10px;
+                /* position: absolute;
+                width: 233px;
+                top: 80px; */
+                p{
+                    color: $primary-color-text;
+                    &:nth-child(2){
+                        font-weight: bold;
+                        text-align: right;
+                    }
+                }
+            } 
+        }
+    }
 }
