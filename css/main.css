@@ -82,4 +82,23 @@ header nav .text__left button {
   padding: 15px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.flights {
+  padding: 15px;
+}
+.flights .Offers {
+  position: relative;
+}
+.flights .Offers p {
+  color: #247BA0;
+  font-size: 20px;
+}
+.flights .Offers hr {
+  text-align: left;
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  width: 80%;
+  color: #605F5E;
 }/*# sourceMappingURL=main.css.map */

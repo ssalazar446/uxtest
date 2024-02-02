@@ -1,0 +1,20 @@
+@use './index' as *;
+
+.flights{
+    padding: 15px;
+    .Offers{
+        position: relative;
+        p{
+            color: $arrow-dropdown-menu;
+            font-size: 20px;
+        }
+        hr{
+            text-align: left;
+            position: absolute;
+            top: 5px;
+            left: 60px;
+            width: 80%;
+            color: #605F5E;
+        }
+    }
+}
