@@ -112,27 +112,81 @@ header nav .text__left button {
   align-items: center;
   position: relative;
 }
-.flights .container_cards .cards_flights img {
+.flights .container_cards .cards_flights .flight {
+  margin-top: 15px;
+}
+.flights .container_cards .cards_flights .flight img {
   border-radius: 16px;
   width: 233px;
   height: 207px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.flights .container_cards .cards_flights .offer_text {
-  border: 2px solid red;
+.flights .container_cards .cards_flights .flight .offer_text {
   border-radius: 0 0 16px 16px;
   background-color: rgba(0, 0, 0, 0.6784313725);
   opacity: 100%;
-  padding: 10px;
-  /* position: absolute;
-  width: 233px;
-  top: 80px; */
+  padding: 0 10px 10px 10px;
 }
-.flights .container_cards .cards_flights .offer_text p {
+.flights .container_cards .cards_flights .flight .offer_text-moscow {
+  position: absolute;
+  width: 233px;
+  height: 85px;
+  top: 138px;
+}
+.flights .container_cards .cards_flights .flight .offer_text-puertorico {
+  position: absolute;
+  width: 233px;
+  height: 85px;
+  top: 362px;
+}
+.flights .container_cards .cards_flights .flight .offer_text-honduras {
+  position: absolute;
+  width: 233px;
+  height: 85px;
+  top: 588px;
+}
+.flights .container_cards .cards_flights .flight .offer_text p {
   color: #fff;
 }
-.flights .container_cards .cards_flights .offer_text p:nth-child(2) {
+.flights .container_cards .cards_flights .flight .offer_text p:nth-child(1) {
+  font-weight: 100;
+}
+.flights .container_cards .cards_flights .flight .offer_text p:nth-child(2) {
   font-weight: bold;
   text-align: right;
+}
+.flights .container_cards .division-destination .container-division {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flights .container_cards .division-destination .container-division .hr-division {
+  width: 50%;
+  margin-top: 20px;
+}
+.flights .container_cards .division-destination .container-division .text-division p {
+  font-weight: bold;
+  color: #605F5E;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.flights .container_cards .menu_flights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flights .container_cards .menu_flights .menu_flights-card {
+  height: 327px;
+  width: 233px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.1607843137);
+}
+.flights .container_cards .menu_flights .menu_flights-card .menu_flights-title {
+  text-align: center;
+  color: #605F5E;
+  opacity: 1;
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */

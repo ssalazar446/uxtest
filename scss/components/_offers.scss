@@ -22,29 +22,82 @@
         .cards_flights{
             @include flexCenter(column, center, center);
             position: relative;
-            img{
-                border-radius: 16px;
-                width: 233px;
-                height: 207px;
-                object-fit: cover;
-            }
-            .offer_text{
-                border: 2px solid red;
-                border-radius: 0 0 16px 16px;
-                background-color: #000000AD;
-                opacity: 100%;
-                padding: 10px;
-                /* position: absolute;
-                width: 233px;
-                top: 80px; */
-                p{
-                    color: $primary-color-text;
-                    &:nth-child(2){
-                        font-weight: bold;
-                        text-align: right;
+            .flight{
+                margin-top: 15px;
+                img{
+                    border-radius: 16px;
+                    width: 233px;
+                    height: 207px;
+                    object-fit: cover;
+                }
+                .offer_text{
+                    border-radius: 0 0 16px 16px;
+                    background-color: #000000AD;
+                    opacity: 100%;
+                    padding: 0 10px 10px 10px;
+                    &-moscow{
+                        position: absolute;
+                        width: 233px;
+                        height: 85px;
+                        top: 138px;
+                    
+                    }
+                    &-puertorico{
+                        position: absolute;
+                        width: 233px;
+                        height: 85px;
+                        top: 362px;
+                    }
+                    &-honduras{
+                        position: absolute;
+                        width: 233px;
+                        height: 85px;
+                        top: 588px;
+                    }
+                    p{
+                        color: $primary-color-text;
+                        &:nth-child(1){
+                            font-weight: 100;
+                        }
+                        &:nth-child(2){
+                            font-weight: bold;
+                            text-align: right;
+                        }
                     }
                 }
             } 
+        }
+        .division-destination{
+            .container-division{
+                @include flexCenter(column, center, center);
+                .hr-division{
+                    width: 50%;
+                    margin-top: 20px;
+                }
+                .text-division{
+                    p{
+                        font-weight: bold;
+                        color: $secondary-text;
+                        font-size: 16px;
+                        margin-top: -5px;
+                    }
+                }
+            }
+        }
+        .menu_flights {
+            @include flexCenter(column, center, center);
+            .menu_flights-card{
+                height: 327px;
+                width: 233px;
+                border-radius: 15px;
+                box-shadow: 1px 1px 10px 4px #00000029;
+                .menu_flights-title {
+                    text-align: center;
+                    color: $secondary-text;
+                    opacity: 1;
+                    font-size: 18px;
+                }
+            }
         }
     }
 }
