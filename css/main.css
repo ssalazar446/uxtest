@@ -177,9 +177,11 @@ header nav .text__left button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .flights .container_cards .menu_flights .menu_flights-card {
-  height: 327px;
+  height: 380px;
   width: 233px;
   border-radius: 15px;
   box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.1607843137);
@@ -189,4 +191,20 @@ header nav .text__left button {
   color: #605F5E;
   opacity: 1;
   font-size: 18px;
+  margin-top: 30px;
+}
+.flights .container_cards .menu_flights .menu_flights-card .menu_flights-text {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1607843137);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.flights .container_cards .menu_flights .menu_flights-card .menu_flights-text .arrow-right {
+  margin-left: 10px;
+}
+.flights .container_cards .menu_flights .menu_flights-card .menu_flights-text p {
+  margin-left: 10px;
+}
+.flights .container_cards .menu_flights .menu_flights-card .menu_flights-text-final {
+  border-bottom: none;
 }/*# sourceMappingURL=main.css.map */

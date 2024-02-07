@@ -86,8 +86,10 @@
         }
         .menu_flights {
             @include flexCenter(column, center, center);
+            margin-top: 20px;
+            margin-bottom: 20px;
             .menu_flights-card{
-                height: 327px;
+                height: 380px;
                 width: 233px;
                 border-radius: 15px;
                 box-shadow: 1px 1px 10px 4px #00000029;
@@ -96,6 +98,22 @@
                     color: $secondary-text;
                     opacity: 1;
                     font-size: 18px;
+                    margin-top: 30px;
+                }
+                .menu_flights-text{
+                    border-bottom: 1px solid #00000029;
+                    display: flex;
+                    align-items: center;
+                    padding: 5px;
+                    .arrow-right{
+                        margin-left: 10px;
+                    }
+                    p{
+                        margin-left: 10px;
+                    }
+                    &-final{
+                        border-bottom: none;
+                    }
                 }
             }
         }
