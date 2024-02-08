@@ -1,0 +1,11 @@
+@use './index' as *;
+footer{
+    background-color: $footer-background;
+    .social__media-container{
+        border: 2px solid red;
+        .social__media-text{
+            @include flexCenter(row, center, center);
+            color: $primary-color-text;
+        }
+    }
+}

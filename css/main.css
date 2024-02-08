@@ -207,4 +207,18 @@ header nav .text__left button {
 }
 .flights .container_cards .menu_flights .menu_flights-card .menu_flights-text-final {
   border-bottom: none;
+}
+
+footer {
+  background-color: #0A2463;
+}
+footer .social__media-container {
+  border: 2px solid red;
+}
+footer .social__media-container .social__media-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
